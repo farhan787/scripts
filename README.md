@@ -8,6 +8,7 @@ Open Terminal and follow below instructions,
 ```sh
 terminal:~$ git clone https://github.com/farhan787/scripts
 terminal:~$ cp cpp_code_runner.sh /usr/local/bin/
+terminal:~$ chmod +x /usr/local/bin/cpp_code_runner.sh
 terminal:~$ alias run='/usr/local/bin/cpp_code_runner.sh'
 ```
 - Now, you'll be able to use **`run c++_file`** to execute your code.
